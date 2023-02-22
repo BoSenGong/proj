@@ -13,4 +13,10 @@
     set(BOOST_ROOT "C:/Boost/boost_1_81_0") // setup Boost Path
     
     ```
-    
+5. Add boost path in .vscode/c_cpp_properties.json 
+    ```
+    "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Boost/boost_1_81_0"
+            ],
+    ```
