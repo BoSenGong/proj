@@ -1,8 +1,8 @@
 # proj
 
-1. install Cmake  (cmake version 3.26.0-rc3)
-2. install Mingw  (gcc version 6.3.0) (MinGW.org GCC-6.3.0-1)
-3. install Boost C++ Libraries (boost version 1.81.0)
+1. Install Cmake  (cmake version 3.26.0-rc3)
+2. Install Mingw  (gcc version 6.3.0) (MinGW.org GCC-6.3.0-1)
+3. Install Boost C++ Libraries (boost version 1.81.0)
 4. Change paths and variables in CMakeList.txt
     ```
     project(proj)   //project name : proj
