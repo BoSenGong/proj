@@ -1,1 +1,16 @@
 # proj
+
+1. install Cmake  (cmake version 3.26.0-rc3)
+2. install Mingw  (gcc version 6.3.0) (MinGW.org GCC-6.3.0-1)
+3. install Boost C++ Libraries (boost version 1.81.0)
+4. Change paths and variables in CMakeList.txt
+    ```
+    project(proj)   //project name : proj
+
+    set(CMAKE_CXX_FLAGS "-g ${CMAKE_CXX_FLAGS}")  //CPP compile option : -g
+    set(CMAKE_C_FLAGS "-std=gnu99 ${CMAKE_C_FLAGS}")  //C compile option : -std=gnu99
+
+    set(BOOST_ROOT "C:/Boost/boost_1_81_0") // setup Boost Path
+    
+    ```
+    
